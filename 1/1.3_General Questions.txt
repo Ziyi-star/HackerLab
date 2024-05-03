@@ -1,0 +1,21 @@
+1.3 General Questions
+
+1. What is the difference between hashing and encryption?
+
+Encryption:
+Purpose: Encryption is designed to conceal data, making it unreadable without the correct key.
+Hashing:
+Purpose: Hashing is used to create a unique, fixed-size signature for a piece of data, such as a password or a file.
+
+2. What are the different use cases for each one?
+
+Use Cases for Encryption:
+Data Privacy: Encryption is essential for protecting sensitive data in transit or at rest, such as personal information, financial data, and confidential communications. 
+
+Secure Communication: 
+Encryption is widely used in secure communications protocols like HTTPS, SSL/TLS, and VPNs, protecting data from eavesdroppers and ensuring that only intended recipients can read it.
+--------------------------------------------------------------------
+Use Cases for Hashing:
+Password Storage: Hashing is used to store passwords securely. When a user creates an account, their password is hashed and the hash is stored, not the password itself. When the user logs in, the password they enter is hashed again; if the new hash matches the stored hash, access is granted.
+
+Unique Identifiers: Hashes can serve as fingerprints for data, helping to identify duplicates or manage data efficiently. 
